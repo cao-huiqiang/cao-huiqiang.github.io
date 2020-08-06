@@ -2,3 +2,5 @@
 * [mermaid流程图](docs/mermaid.md)
 * [Markdown手册](docs/markdown-cheat-sheet.md)
 * [Markdown技巧](docs/markdown.md)
+* [常用链接](docs/link.md)
+* [CSDN 收藏整理](docs/csdn_fav.md)
