@@ -17,28 +17,29 @@
       },
       subMaxLevel: 3,
      
-    // 完整配置参数
-    search: {
-      maxAge: 86400000, // 过期时间，单位毫秒，默认一天
-      paths: 'auto', // or 'auto'
-      placeholder: 'Type to search',
-      noData: 'No Results!',         
-      depth: 6, // 搜索标题的最大层级, 1 - 6
-    },
-    plugins: [
-      EditOnGithubPlugin.create('https://github.com/cao-huiqiang/cao-huiqiang.github.io', 'https://github.com/cao-huiqiang/cao-huiqiang.github.io', 'Github Pages')
-    ],
-    count:{
-      countable:true,
-      fontsize:'0.9em',
-      color:'rgb(90,90,90)',
-      language:'chinese'
-    },
-    toc: {
-      scope: '.markdown-section',
-      headings: 'h1, h2, h3, h4, h5, h6',
-      title: 'Table of Contents',
-    },
+      // 完整配置参数
+      search: {
+        maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+        paths: 'auto', // or 'auto'
+        placeholder: 'Type to search',
+        noData: 'No Results!',         
+        depth: 6, // 搜索标题的最大层级, 1 - 6
+      },
+      plugins: [
+        EditOnGithubPlugin.create('https://github.com/cao-huiqiang/cao-huiqiang.github.io', 'https://github.com/cao-huiqiang/cao-huiqiang.github.io', 'Github Pages')
+      ],
+      count:{
+        countable:true,
+        fontsize:'0.9em',
+        color:'rgb(90,90,90)',
+        language:'chinese'
+      },
+      toc: {
+        scope: '.markdown-section',
+        headings: 'h1, h2, h3, h4, h5, h6',
+        title: 'Table of Contents',
+      },
+    }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <!--  全文搜索 - Search  -->
