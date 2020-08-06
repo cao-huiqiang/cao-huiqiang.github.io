@@ -19,15 +19,17 @@
      
       // 完整配置参数
       search: {
+        name: 'github-pages',
+        repo: 'https://github.com/cao-huiqiang/cao-huiqiang.github.io',
         maxAge: 86400000, // 过期时间，单位毫秒，默认一天
         paths: 'auto', // or 'auto'
         placeholder: 'Type to search',
         noData: 'No Results!',         
         depth: 6, // 搜索标题的最大层级, 1 - 6
       },
-      plugins: [
-        EditOnGithubPlugin.create('https://github.com/cao-huiqiang/cao-huiqiang.github.io', 'https://github.com/cao-huiqiang/cao-huiqiang.github.io', 'Github Pages')
-      ],
+//       plugins: [
+//         EditOnGithubPlugin.create('https://github.com/cao-huiqiang/cao-huiqiang.github.io', 'https://github.com/cao-huiqiang/cao-huiqiang.github.io', 'Github Pages')
+//       ],
       count:{
         countable:true,
         fontsize:'0.9em',
